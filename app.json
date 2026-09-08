@@ -1,27 +1,38 @@
 {
   "expo": {
-    "name": "EmployeeRegistrationApp",
-    "slug": "EmployeeRegistrationApp",
-    "version": "1.0.0",
-    "orientation": "portrait",
+    "name": "EmployeeAttendanceMonitoring",
+    "slug": "EmployeeAttendanceMonitoring",
+    "version": "2.9.0",
+    "orientation": "default",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.agiexpo.EmployeeAttendanceMonitoring",
+      "permissions": [
+        "CAMERA"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "17fd4855-6e3e-4196-bec8-fdfe61cadb36"
+      }
+    },
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/17fd4855-6e3e-4196-bec8-fdfe61cadb36"
+    },
+    "plugins": [
+      "expo-secure-store",
+      "@react-native-community/datetimepicker",
+      "expo-status-bar",
+      "expo-font"
+    ]
   }
 }
